@@ -1,5 +1,6 @@
 package selenium;
 
+import org.junit.Test;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
@@ -18,6 +19,15 @@ public class Introduction {
 		System.out.println(driver.getCurrentUrl());
 		driver.close();
 		//driver.quit();
+	}
+	
+	@Test
+	public void postJira()
+	{
+		System.out.println("postJira1");
+		System.out.println("postJira2");
+		System.out.println("postJira3");
+
 	}
 
 }
