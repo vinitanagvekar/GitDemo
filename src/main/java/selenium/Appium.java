@@ -8,4 +8,9 @@ public class Appium {
 	{
 		System.out.println("appium1");
 	}
+	
+	public void appiumre()
+	{
+		System.out.println("appium23232323");
+	}
 }
