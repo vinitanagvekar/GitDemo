@@ -7,5 +7,6 @@ public class Appium {
 	public void appium()
 	{
 		System.out.println("appium1");
+		System.out.println("appium2");
 	}
 }
